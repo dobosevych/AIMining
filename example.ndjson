@@ -1,0 +1,2 @@
+{"preference":"SearchResult"}
+{"query":{"bool":{"must":[{"bool":{"must":[{"bool":{"should":[{"multi_match":{"query":"Ukraine","fields":["content"],"type":"best_fields","operator":"or","fuzziness":0}},{"multi_match":{"query":"Ukraine","fields":["content"],"type":"phrase_prefix","operator":"or"}}],"minimum_should_match":"1"}}]}}]}},"size":8,"_source":{"includes":["*"],"excludes":[]},"from":0}

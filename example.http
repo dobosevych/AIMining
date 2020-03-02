@@ -1,0 +1,5 @@
+POST https://search-aiindex-76cl5n3qdcbspk7eztijpvdq6i.us-east-2.es.amazonaws.com/arxiv2/documents/_msearch?
+Content-type: application/x-ndjson
+
+< example.ndjson
+###
